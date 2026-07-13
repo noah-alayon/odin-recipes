@@ -1,0 +1,35 @@
+.title {
+    text-align: center;
+    padding: 16px;
+    background-color: cyan;
+}
+
+.recipe-list {
+    list-style: none;
+    padding: 0px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    text-align: center;
+    font-size: 30px;
+    width: 400px;
+    height: 600px;
+    background-color: cyan;
+}
+
+.card a {
+    width: inherit;
+    display: block;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: inherit;
+    height: 300px;
+    object-fit: cover;
+}
