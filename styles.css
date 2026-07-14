@@ -1,7 +1,8 @@
 .title {
     text-align: center;
-    padding: 16px;
     background-color: cyan;
+    padding: 8px;
+    margin: 16px auto;
 }
 
 .recipe-list {
@@ -10,12 +11,14 @@
     margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .card {
     text-align: center;
     font-size: 30px;
-    width: 400px;
+    flex: 0 1 400px;
     height: 600px;
     background-color: cyan;
 }
@@ -29,7 +32,7 @@
 }
 
 .card img {
-    width: inherit;
+    max-width: 100%;
     height: 300px;
     object-fit: cover;
 }
