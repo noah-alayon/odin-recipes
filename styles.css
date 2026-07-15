@@ -8,7 +8,6 @@
 .recipe-list {
     list-style: none;
     padding: 0px;
-    margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
